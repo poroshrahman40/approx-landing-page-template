@@ -1,0 +1,38 @@
+/* footer section - start
+==================================================================================================== */
+.footer-section {
+
+	/* footer-newsletter - start */
+	.footer-newsletter {
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+		.overlay-royalblue {
+			padding: 60px 0px;
+			background-color: rgba(42,23,134,0.9);
+		}
+		.item-title {
+			font-size: 24px;
+			color: $pure-white;
+		}
+	}
+	/* footer-newsletter - end */
+
+	/* copyright-text - start */
+	.copyright-text {
+		padding: 20px 0px;
+		background-color: #eeeeee;
+		p {
+			i {font-size: 14px;}
+			.author-link {
+				color: $royalblue-color;
+				font-weight: $fw-semibold;
+				&:hover {text-decoration: underline;}
+			}
+		}
+	}
+	/* copyright-text - end */
+
+}
+/* footer section - end
+==================================================================================================== */
